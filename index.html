@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Kayke Lopes</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
     <style>
@@ -15,47 +15,83 @@
         }
         header {
             text-align: center;
-            padding: 60px 20px;
-            background: #000;
+            padding: 30px 15px;
         }
         header img {
-            max-width: 250px;
-            border-radius: 10px;
+            width: 160px;
+            border-radius: 50%;
+            border: 3px solid #0ff;
         }
-        header h1 {
-            margin-top: 20px;
-            font-size: 2.5em;
+        h1 {
+            color: #0ff;
+            margin-top: 10px;
         }
         section {
-            padding: 40px 20px;
-            text-align: center;
+            padding: 30px 20px;
+            max-width: 900px;
+            margin: auto;
         }
-        .moto-section img {
-            max-width: 90%;
+        .hobbies, .moto {
+            background-color: #222;
+            margin-top: 20px;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        img {
+            max-width: 100%;
             height: auto;
             border-radius: 10px;
-            margin: 20px 0;
+        }
+        .social a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #0ff;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #555;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <img src="img/foto1.jpeg" alt="Kayke">
-    <h1>Kayke Lopes</h1>
+    <img src="img/perfil-1.jpg" alt="Kayke Lopes" />
+    <h1>@Lopees.04</h1>
+    <p>Vivendo apenas o extraordinário! Tecnologia avançada!</p>
 </header>
 
-<section>
-    <h2>Meus Hobbies</h2>
-    <p>Racing 🏍️ | Programar 💻 | Culto 🙏 | Cantar 🎤</p>
-    <img src="img/foto2.jpeg" alt="Hobbies de Kayke" style="max-width: 90%; border-radius: 10px;">
+<section class="hobbies">
+    <h2>Sobre Mim</h2>
+    <p>Gosto muito de <strong>RACING</strong> — Moto forte! 🏍️</p>
+    <p>Tenho 20 anos. Moro em Mandaguari – PR.</p>
+    <p>Gosto de <strong>desenvolver software</strong>, ir pro <strong>culto</strong> e cantar! 🎶</p>
 </section>
 
-<section class="moto-section" id="moto">
+<section class="moto">
     <h2>Minha Moto</h2>
-    <img src="img/minha-moto.jpg" alt="Moto do Kayke">
-    <p>Essa é a minha companheira de aventuras! Sempre pronta pra acelerar. 💨</p>
+    <img src="img/moto.jpg" alt="Minha moto" />
 </section>
+
+<section class="hobbies">
+    <h2>Mais Fotos</h2>
+    <img src="img/perfil-2.jpg" alt="Kayke 2" />
+</section>
+
+<section class="social">
+    <h2>Redes Sociais</h2>
+    <p>
+        <a href="https://instagram.com/Lopees.04" target="_blank">Instagram: @Lopees.04</a><br>
+        <a href="https://facebook.com/Kayke Lopes" target="_blank">Facebook: Kayke Lopes</a>
+    </p>
+</section>
+
+<footer>
+    © 2025 Kayke Lopes – Todos os direitos reservados
+</footer>
 
 </body>
 </html>
